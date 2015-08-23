@@ -1,0 +1,7 @@
+{
+    "twilioAccountSID": "YOURSID",
+    "twilioAuthToken": "YOURAUTHTOKEN",
+    "smsToPhoneNumber": "SENDTONUMBER",
+    "smsFromPhoneNumber": "SENDFROMNUMBER",
+    "mixpanel" : "YOURKEYS" 
+}
