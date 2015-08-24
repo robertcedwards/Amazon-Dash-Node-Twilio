@@ -13,6 +13,7 @@ Hacking Amazon Dash with ARP, Node, and Twilio…and then Giphy, IFTTT, and Mixp
 
 This is inspired by the great hack using Python and Magicforms that was posted on Medium here:
 https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8
+
 Also found here on a Gist on Github: https://gist.github.com/eob/79f481c68cf4fbb110e7
 
 
