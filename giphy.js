@@ -12,7 +12,7 @@ var twilioClient = require('twilio')(config.twilioAccountSID, config.twilioAuthT
 var Mixpanel = require('mixpanel');
 
 // create an instance of the mixpanel client
-var mixpanel = Mixpanel.init('YOURMIXPANELID');
+var mixpanel = Mixpanel.init(config.mixpanel);
 //
 // Events
 //

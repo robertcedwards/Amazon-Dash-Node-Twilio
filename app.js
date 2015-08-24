@@ -6,7 +6,7 @@ var arpListener = require('arp-listener')
 //
 // create an instance of the mixpanel client
 var Mixpanel = require('mixpanel');
-var mixpanel = Mixpanel.init('YOURMIXPANELAPI');
+var mixpanel = Mixpanel.init(config.mixpanel);
 //
 // Events
 //
