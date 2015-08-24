@@ -6,4 +6,3 @@ def arp_display(pkt):
       print "ARP Probe from: " + pkt[ARP].hwsrc
 
 print sniff(prn=arp_display, filter="arp", store=0, count=10)
- 
