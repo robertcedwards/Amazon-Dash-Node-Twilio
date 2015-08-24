@@ -20,7 +20,7 @@ var mixpanel = Mixpanel.init(config.mixpanel);
 
 arpListener('en0', function(arpData) {
 
-  if (arpData.sender_ha == 'YOURBUTTONONMACADDRESS') {
+  if (arpData.sender_ha == config.pushMAC) {
     console.log('pushed');
     console.log(arpData.sender_ha);
     sendTextMessage('Dash Button Pushed',media);
@@ -28,7 +28,7 @@ arpListener('en0', function(arpData) {
 
 
     } 
-    else if (arpData.sender_ha == 'YOURDEFAULTMACADDRESS') {
+    else if (arpData.sender_ha == config.defaultMAC) {
         console.log('Sleepy Time');
     }
 })

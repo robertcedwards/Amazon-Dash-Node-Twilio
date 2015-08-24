@@ -1,10 +1,10 @@
 var arpListener = require('arp-listener')
 arpListener('en0', function(arpData) {
 
-  if (arpData.sender_ha == 'a0:02:dc:5a:e9:d8') {
+  if (arpData.sender_ha == config.pushMAC) {
   	console.log('pushed');
 	} 
-	else if (arpData.sender_ha == 'ac:b3:13:8c:51:d7') {
+	else if (arpData.sender_ha == config.defaultMAC) {
 		console.log('Sleepy Time');
 	}
 })

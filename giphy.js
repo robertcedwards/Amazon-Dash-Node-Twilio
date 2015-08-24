@@ -19,14 +19,14 @@ var mixpanel = Mixpanel.init('YOURMIXPANELID');
 
 arpListener('en0', function(arpData) {
 
-  if (arpData.sender_ha == 'YOURBUTTONONMACADDRESS') {
+  if (arpData.sender_ha == config.pushMAC) {
     console.log('pushed');
     console.log(arpData.sender_ha);
     sendGif();
     mixpanel.track(arpData.sender_ha);    
     }
 
-    else if (arpData.sender_ha == 'YOURDEFAULTMACADDRESS') {
+    else if (arpData.sender_ha == config.defaultMAC) {
         console.log('Sleepy Time');
         console.log(arpData.sender_ha);
         mixpanel.track(arpData.sender_ha);    
