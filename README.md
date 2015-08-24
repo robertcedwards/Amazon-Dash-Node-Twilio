@@ -1,9 +1,14 @@
 # Amazon-Dash-Node-Twilio
 Hacking Amazon Dash with ARP, Node, and Twilio…and then Giphy, IFTTT, and Mixpanel
-<div class="github-card" data-github="robertcedwards/Amazon-Dash-Node-Twilio" data-width="800" data-height="" data-theme="medium"></div>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-This is inspired by the great hack using Python and Magicforms that was posted on Medium.
-https://www.npmjs.com/package/arp-listener
+
+1) Install the dependencies you'll need to use the individual packages or install them all using 
+```bash npm install```
+2) Get API keys for the services that you'll be using (Twilio, Mixpanel, Giphy, IFTTT).
+
+This is inspired by the great hack using Python and Magicforms that was posted on Medium here:
+https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8
+Also found here on a Gist on Github: https://gist.github.com/eob/79f481c68cf4fbb110e7
+
 
 Added a IFTTT example:
 https://ifttt.com/recipes/318591-amazon-dash-to-maker
