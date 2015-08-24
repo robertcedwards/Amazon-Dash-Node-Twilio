@@ -3,5 +3,8 @@
     "twilioAuthToken": "YOURAUTHTOKEN",
     "smsToPhoneNumber": "SENDTONUMBER",
     "smsFromPhoneNumber": "SENDFROMNUMBER",
-    "mixpanel" : "YOURKEYS" 
+    "mixpanel" : "YOURKEYS",
+    "iftttkeys" : "YOURIFTTTMAKERCHANNELKEY",
+    "pushMAC" : "",
+    "defaultMAC" : "" 
 }
