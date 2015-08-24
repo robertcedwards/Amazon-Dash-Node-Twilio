@@ -3,7 +3,13 @@ Hacking Amazon Dash with ARP, Node, and Twilio…and then Giphy, IFTTT, and Mixp
 
 1) Install the dependencies you'll need to use the individual packages or install them all using 
 ```bash npm install```
+
 2) Get API keys for the services that you'll be using (Twilio, Mixpanel, Giphy, IFTTT).
+
+3) Enter those API keys into the config.json file included in the repo.
+
+4) Run the script you'd like using $``` node debug-example.js```
+
 
 This is inspired by the great hack using Python and Magicforms that was posted on Medium here:
 https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8
