@@ -17,6 +17,7 @@ https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-ba
 Also found here on a Gist on Github: https://gist.github.com/eob/79f481c68cf4fbb110e7
 
 
+<hr/>
 Added a IFTTT example:
 https://ifttt.com/recipes/318591-amazon-dash-to-maker
 
