@@ -2,7 +2,7 @@
 Hacking Amazon Dash with ARP, Node, and Twilio…and then Giphy, IFTTT, and Mixpanel
 
 1) Install the dependencies you'll need to use the individual packages or install them all using 
-```bash npm install```
+```npm install```
 
 2) Get API keys for the services that you'll be using (Twilio, Mixpanel, Giphy, IFTTT).
 
