@@ -8,7 +8,8 @@ Hacking Amazon Dash with ARP, Node, and Twilio…and then Giphy, IFTTT, and Mixp
 
 3) Enter those API keys into the config.json file included in the repo.
 
-4) Run the script you'd like using $``` node debug-example.js```
+4) Run the script you'd like using $``` node debug-example.js``` to get your MAC Addresses of the On/Off state of your Dash buttons. Then plug those into the config.js file and run your choosing of the scripts in the directory such as IFTTT.js, etc.
+
 
 <hr/>
 This is inspired by the great hack using Python and Magicforms that was posted on Medium here:
